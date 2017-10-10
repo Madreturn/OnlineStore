@@ -22,3 +22,13 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+# bookstore 
+online shopping system
+## 前言
+bookstore是一款免费的在线图书购物系统。
+前端：BootStrip框架
+后端：Rails
+...
+待完善...
+...
+QQ群：291552647
