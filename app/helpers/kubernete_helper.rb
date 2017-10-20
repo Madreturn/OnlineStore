@@ -1,0 +1,2 @@
+module KuberneteHelper
+end

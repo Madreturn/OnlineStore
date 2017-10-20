@@ -83,7 +83,8 @@
       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      <%= link_to image_tag("welcome_m1.jpg", :class => "featurette-image img-responsive center-block"), image_path("welcome_m1.jpg")%>
+      <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
     </div>
   </div>
 
@@ -95,7 +96,8 @@
       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </div>
     <div class="col-md-5 col-md-pull-7">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      <%= link_to image_tag("welcome_m2.jpg", :class => "featurette-image img-responsive center-block"), image_path("welcome_m1.jpg")%>
+      <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
     </div>
   </div>
 
@@ -107,7 +109,11 @@
       <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
     </div>
     <div class="col-md-5">
-      <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      <%= link_to image_tag("welcome_m3.jpg", :class => "featurette-image img-responsive center-block"), image_path("welcome_m1.jpg")%>
+      <!--<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">-->
     </div>
   </div>
+
+  <hr class="featurette-divider">
+  <%= render partial: "layouts/footer" %>
 </div>
