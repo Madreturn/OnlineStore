@@ -3,4 +3,7 @@ class HtmlsController < ApplicationController
   def index
 
   end
+  
+  def my_form
+  end
 end
